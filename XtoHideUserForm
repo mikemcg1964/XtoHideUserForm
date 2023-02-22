@@ -1,0 +1,6 @@
+Private Sub UserForm_QueryClose(Cancel As Integer, CloseMode As Integer)
+  If CloseMode = vbFormControlMenu Then
+    Cancel = True
+    Hide
+  End If
+End Sub
